@@ -16,10 +16,25 @@
         android:text="test"
         android:id="@+id/test"/>
 
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp"
         android:id="@+id/number"/>
+
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="79dp"
+        android:id="@+id/toastButton" />
+
 </RelativeLayout>
