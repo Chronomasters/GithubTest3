@@ -41,16 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button.setOnClickListener(this);
 
-        rand = new Random();
-
-        n = rand.nextInt(50) +1;
-
-
-
     }
 
     @Override
     public void onClick(View view) {
-        textView.setText("" + n);
+        rand = new Random();
+        textView.setText("" + rand.nextInt(50) +1);
     }
 }
